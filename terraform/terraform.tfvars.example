@@ -1,0 +1,8 @@
+# Exemple de configuration - À personnaliser avec vos valeurs
+# Copier ce fichier vers terraform.tfvars et remplir les valeurs
+
+project_id         = "YOUR_PROJECT_ID"
+region             = "europe-west1"
+zone               = "europe-west1-b"
+artifact_repo_name = "flask-repo"
+cluster_name       = "flask-cluster"
