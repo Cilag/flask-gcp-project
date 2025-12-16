@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from Flask deployed on Google Cloud!"
+    return "COUCOU c'est API flask de guigui"
 
 @app.route('/health')
 def health():

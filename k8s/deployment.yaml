@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: europe-west1-docker.pkg.dev/PROJECT_ID/flask-repo/flask-app:latest
+        image: europe-west1-docker.pkg.dev/tpfinal2026/flask-repo/flask-app:latest
         ports:
         - containerPort: 8080
         # Health checks
